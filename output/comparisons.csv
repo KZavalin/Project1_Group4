@@ -1,0 +1,9 @@
+,Description,Analysis By,P value,Significantly Different (P<.05)?,ANOVA F-value,T-test,Chi-Squared,Groups,Dataframe
+0,All Races Comparison,Race,[3.34420708e-29],Yes,[64.45867552],,,"['All Races', 'White alone, not Hispanic', 'Black alone, not Hispanic', 'Hispanic (any race)']",by_race_df
+1,All Ages Comparison,Age Range,[5.39627533e-18],Yes,[20.99566885],,,"['Under 65 years', '18 to 64 years', '40 to 64 years', '50 to 64 years', 'Under 19 years', '21 to 64 years']",by_age_df
+2,Sex Comparison,Sex,[0.01169287],Yes,[4.58336767],,,"['Both Sexes', 'Male Only', 'Female Only']",by_sex_df
+3,All Incomes Comparison,Income Poverty Ratio,[2.52522705e-12],Yes,[14.01805152],,,"['All Incomes', '<= 200% of Poverty', '<= 250% of Poverty', '<= 138% of Poverty', '<= 400% of Poverty', '138% to 400% of Poverty']",by_income_df
+4,Hispanic vs All Comparison,Race,[5.40954814e-15],Yes,,[9.20725759],,"['All Races', 'Hispanic (any race)']",hispanic_df
+5,Under 138% vs 139-400% Poverty Comparison,Income Poverty Ratio,[0.00011589],Yes,,[-4.01303254],,"['<= 138% of Poverty', '138% to 400% of Poverty']",exclusive_income_brackets_df
+6,Under 19 vs All Ages,Age Range,[7.37131151e-12],Yes,,[-7.76162995],,"['Under 65 years', 'Under 19 years']",age_19vsall_df
+7,By State,State,1.0,No,,,0.07176605216625473,N/A,summary_df
